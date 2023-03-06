@@ -38,3 +38,42 @@
 // console.log(a); //6
 // console.log(b); //3
 
+// 5. Reduce
+// Your function must use reduce
+
+// - Given an array, return the sum of numbers that are 18 or over.
+// ``` javascript
+// const arr = [1, 22, 55, 166, 5, 36, 11, 205, 333, 95, 62, 10, 43]
+
+// function sumOfNumbersEqualToOrOverEighteen(arr){
+//     return arr.filter((item) => item >= 18).reduce((sum, current) =>{
+//         return sum + current;
+//     })
+// }
+
+// console.log(sumOfNumbersEqualToOrOverEighteen(arr));
+// // 22 + 55 + 166 + 36 + 205 + 333 + 95 + 62 + 43 = 1017
+// ```
+// - Write a function which calculates average age of users.
+// ``` javascript
+
+// const users = [{_, _,age}] = [
+// {
+// username: "Yuri Gagarin",
+// lang: "ru",
+// age: 56,
+// },
+// {
+// username: "Nil Armstrong",
+// lang: "ENG",
+// age: 54,
+// },
+// ];
+
+// function getAverageAge(users){
+//     return users.map((user) => user.age).reduce((sum, current) => {
+//         return (sum + current)/users.length;
+//     })
+// }
+
+// console.log(getAverageAge(users)); // 55;
