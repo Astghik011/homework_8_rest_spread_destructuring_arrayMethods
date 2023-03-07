@@ -228,3 +228,30 @@
 
 // console.log(parseInteger(["1", "2", "34"])); // [1, 2, 34];
 // console.log(parseInteger(["1", "px", "2323"])); // [1, null, 2323];
+
+
+// 13. SORT
+// Your function must use sort method
+
+// - Create a function that takes an array of numbers arr, a string str
+// and return an array of numbers as per the following rules:
+
+// - "Asc" returns a sorted array in ascending order.
+// - "Desc" returns a sorted array in descending order.
+
+// Solution
+
+// function sortBy(arr, sortType){
+//     switch(sortType){
+//         case "Asc":
+//             return arr.sort((a, b) => a - b);
+//         case "Desc":
+//             return arr.sort((a, b) => b - a);
+//         default:
+//             return arr;
+//     }
+// }
+
+// console.log(sortBy([4, 3, 2, 1], "Asc" )) // [1, 2, 3, 4]
+// console.log(sortBy([7, 8, 11, 66])) // [7, 8, 11, 66]
+// console.log(sortBy([7, 8, 11, 66], "Desc")) // [66, 11, 8, 7]
