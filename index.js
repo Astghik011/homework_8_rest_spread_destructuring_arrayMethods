@@ -111,9 +111,9 @@
 
 // console.log(getNumbersFromArray(arr));
 
-// ```
+
 // 8. - Write a function which remove users with language equals to 'ru'.
-// // ``` javascript
+
 
 // const users = [{_, lang}] = [
 // {
@@ -136,9 +136,8 @@
 
 // console.log(filterUsers(users));
 
-// ```
+
 // 9.- Write a function which filters object by field.
-// ``` javascript
 
 // const users = [{_,_,isAstronaut}] = [
 // {
@@ -159,7 +158,6 @@
 // filterByField(users, "isAstronaut"); // [{ username: "Yuri Gagarin",
 // lang: "ru", isAstronaut: true, }, { username: "Nil Armstrong, lang: "ENG"
 // }]
-// ```
 
 // Solution
 
@@ -168,3 +166,65 @@
 // }
 
 // console.log(filterByField(users));
+
+// 10. Map
+// Your function must use map method
+
+// - Write a function which returns array of usernames.
+
+// const users =[{username}] = [
+// {
+//     username: "Yuri Gagarin",
+//     lang: "ru",
+// },
+// {
+//     username: "Nil Armstrong",
+//     lang: "ENG",
+// },
+// ];
+// getUserNames(users); // ['Yuri Gagarin', 'Nil Armstrong']
+
+// Solution
+
+// function getUserNames(arr){
+//     return arr.map((user) => user.username)
+// }
+
+// console.log(getUserNames(users));
+
+
+// 11. - Write a function which returns array of lengths of user names
+
+// const users = [{username}] = [
+// {
+//     username: "Yuri Gagarin",
+//     lang: "ru",
+// },
+// {
+//     username: "Nil Armstrong",
+//     lang: "ENG",
+// },
+// ];
+// getUsernameLengths(users); // [12, 13]
+
+// Solution
+
+// function getUsernameLengths(arr){
+//     return arr.map((user) => user.username.length);
+// }
+
+// console.log(getUsernameLengths(users));
+
+
+
+// 12. - Write a function which parses string integers. If it's not possible to
+// parse, then add null
+
+// Solution
+
+// function parseInteger(arr){
+//     return arr.map((item) => +item || null);
+// }
+
+// console.log(parseInteger(["1", "2", "34"])); // [1, 2, 34];
+// console.log(parseInteger(["1", "px", "2323"])); // [1, null, 2323];
