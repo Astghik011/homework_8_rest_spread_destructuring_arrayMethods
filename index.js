@@ -17,7 +17,7 @@
 
 // function sum(...args) {
 //     return args.reduce((sum, current) => {
-//     return sum + current;
+//          return sum + current;
 // });
 // }
 // console.log(sum(1, 2)); // prints 3
@@ -50,7 +50,7 @@
 // Your function must use reduce
 
 // - Given an array, return the sum of numbers that are 18 or over.
-// ``` javascript
+
 // const arr = [1, 22, 55, 166, 5, 36, 11, 205, 333, 95, 62, 10, 43]
 
 // Solution
@@ -65,9 +65,7 @@
 
 // // 22 + 55 + 166 + 36 + 205 + 333 + 95 + 62 + 43 = 1017
 
-// 6.  ```
-// - Write a function which calculates average age of users.
-// ``` javascript
+// 6.- Write a function which calculates average age of users.
 
 // const users = [{_, _,age}] = [
 // {
@@ -97,7 +95,6 @@
 // Your functions must use filter method
 
 // - Given an array, return a new array that only includes the numbers.
-// ``` javascript
 
 // const arr = [1, 2, 'a', true, {}, undefined, 55, false, 'hi', null,
 // 166, NaN]
@@ -113,7 +110,6 @@
 
 
 // 8. - Write a function which remove users with language equals to 'ru'.
-
 
 // const users = [{_, lang}] = [
 // {
