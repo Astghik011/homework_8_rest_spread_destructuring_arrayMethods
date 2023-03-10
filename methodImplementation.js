@@ -90,3 +90,18 @@
 // arr = [1,9,75,5,1,2,6,2,1,5]
 // console.log(findIndex(arr, 5));
 // console.log(findIndex(arr, 10));
+
+//5. find
+
+// function find(arr, input){
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i] === input){
+//             return i;
+//         }
+//     }
+//     return undefined;
+// }
+
+// arr = [1,9,75,5,1,2,6,2,1,5]
+// console.log(find(arr, 5));
+// console.log(find(arr, 10));  
