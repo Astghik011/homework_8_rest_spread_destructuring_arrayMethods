@@ -132,3 +132,16 @@
 
 // const arr = [1,3,5,11,12,16,15];
 // console.log(filter(arr));
+
+// 8. Array.every()
+
+// function every(arr){
+
+//     for(let i of arr){
+//         return i === 10;
+//     }
+// }
+
+// // const arr = [1,3,5,7,9,,2,5,6];
+// const arr2 = [10,10,10,10,10,10];
+// console.log(every(arr2));
