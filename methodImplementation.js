@@ -160,3 +160,16 @@
 // const arr = [1,2,3,5,1,2,5,1,3];
 // const arr2 = [111,123,123]
 // console.log(some(arr2, 5));
+
+// 10. Array.reduce()
+
+function reduce(sum, num, arr){
+//     for(let i = 0; i < arr.length; i++){
+//         num = arr[i];
+//         sum += num;
+//     }
+//     return sum;
+// }
+
+// const arr = [1, 5, 6, 8, 10];
+// console.log(reduce(0, 0, arr));
