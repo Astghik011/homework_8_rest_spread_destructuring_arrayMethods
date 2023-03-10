@@ -76,7 +76,7 @@
 // console.log(splice(arr, start, deleteCount)); // this and a lot of other things don't work.
 
 
-// 4. findIndex
+// 4. Array.findIndex()
 
 // function findIndex(arr, input){
 //     for(let i = 0; i < arr.length; i++){
@@ -91,7 +91,7 @@
 // console.log(findIndex(arr, 5));
 // console.log(findIndex(arr, 10));
 
-//5. find
+//5. Array.find()
 
 // function find(elem, arr){
 //     for(let i = 0; i < arr.length; i++){
@@ -105,15 +105,30 @@
 // const arr = [1, 9, 75, 5, 16, 5];
 // console.log(find(5, arr));  // outputs correct data but doesn't work the way it should. 
                                // I don't get the parameters part right.
-// 6. map
+// 6. Array.map()
 
 // function map(arr){
 //     let arr2 = [];
 //     for(let i = 0; i < arr.length; i++){
-//         arr2.push(arr[i]);
+//         arr2.push(arr[i] + 10);
 //     }
 //     return arr2;
 // }
 
 // const arr =[1,6,8,111,2236,1222,666];
 // console.log(map(arr));           
+
+// 7. Array.filter()
+
+// function filter(arr){
+//     const filtered = [];
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i]>= 10){
+//             filtered.push(arr[i]);
+//         }
+//     }
+//     return filtered;
+// }
+
+// const arr = [1,3,5,11,12,16,15];
+// console.log(filter(arr));
