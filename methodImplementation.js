@@ -104,4 +104,16 @@
 
 // const arr = [1, 9, 75, 5, 16, 5];
 // console.log(find(5, arr));  // outputs correct data but doesn't work the way it should. 
-                               // I don't get the inherent parameters right.
+                               // I don't get the parameters part right.
+// 6. map
+
+// function map(arr){
+//     let arr2 = [];
+//     for(let i = 0; i < arr.length; i++){
+//         arr2.push(arr[i]);
+//     }
+//     return arr2;
+// }
+
+// const arr =[1,6,8,111,2236,1222,666];
+// console.log(map(arr));           
