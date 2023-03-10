@@ -93,15 +93,15 @@
 
 //5. find
 
-// function find(arr, input){
+// function find(elem, arr){
 //     for(let i = 0; i < arr.length; i++){
-//         if(arr[i] === input){
-//             return i;
+//         if(arr[i] > elem){
+//             return arr[i];
 //         }
 //     }
 //     return undefined;
 // }
 
-// arr = [1,9,75,5,1,2,6,2,1,5]
-// console.log(find(arr, 5));
-// console.log(find(arr, 10));  
+// const arr = [1, 9, 75, 5, 16, 5];
+// console.log(find(5, arr));  // outputs correct data but doesn't work the way it should. 
+                               // I don't get the inherent parameters right.
