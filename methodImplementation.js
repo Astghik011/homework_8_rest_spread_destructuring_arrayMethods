@@ -73,4 +73,20 @@
 // const deleteCount = 2;
 // const items = [5, 6];
 // console.log(splice(arr, start, deleteCount, items)); // works only in case the delete count and the length of the items are equal.
-// console.log(splice(arr, start, deleteCount)); // this and a lot of other things don't work
+// console.log(splice(arr, start, deleteCount)); // this and a lot of other things don't work.
+
+
+// 4. findIndex
+
+// function findIndex(arr, input){
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i] === input){
+//             return i;
+//         }
+//     }
+//     return -1;
+// }
+
+// arr = [1,9,75,5,1,2,6,2,1,5]
+// console.log(findIndex(arr, 5));
+// console.log(findIndex(arr, 10));
