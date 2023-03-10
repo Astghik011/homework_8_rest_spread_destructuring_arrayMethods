@@ -54,16 +54,23 @@
 // 3. Array.splice()
 
 // function splice(arr, start, deleteCount, items){
-//     let newArr = [];
-//     let newStart = start + deleteCount;
-//     let counter = 0;
-    
+//     const patch = [];
+//     let end = start + deleteCount;
+//     for(let i = arr.length; i > start; i--){
+//         patch.unshift(arr.pop(arr[i]));
+//     }
+
+//     for(let i = 0; i < items.length; i++){
+//         patch[i] = items[i]
+//     }
+
+//     return arr.concat(patch);
+// }
 
     
 // const arr = [1, 2, 3, 4, 3, 4, 7, 8, 9];
 // const start = 4;
 // const deleteCount = 2;
 // const items = [5, 6];
-// console.log(splice(arr, start, deleteCount, items));
-// console.log(splice(arr, start, deleteCount));
-
+// console.log(splice(arr, start, deleteCount, items)); // works only in case the delete count and the length of the items are equal.
+// console.log(splice(arr, start, deleteCount)); // this and a lot of other things don't work
