@@ -145,3 +145,18 @@
 // // const arr = [1,3,5,7,9,,2,5,6];
 // const arr2 = [10,10,10,10,10,10];
 // console.log(every(arr2));
+
+// 9. Array.some()
+
+// function some(arr, num){
+//     for(let i = 0; i < arr.length; i++){
+//        if(arr[i] === num){
+//         return true;
+//        }
+//     }
+//     return false;
+// }
+
+// const arr = [1,2,3,5,1,2,5,1,3];
+// const arr2 = [111,123,123]
+// console.log(some(arr2, 5));
